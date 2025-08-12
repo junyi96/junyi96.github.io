@@ -1,3 +1,10 @@
+# Introduction
+This is Lay Jun Yi's Github page meant to showcase my portfolio and website-making skills.
+
+This website was made with Astro.
+Work is still being done to prettify the website as well as finding projects to showcase in this Github page.
+
+Below was the Astro starter kit used.  
 # Astro Starter Kit: Minimal
 
 ```sh
