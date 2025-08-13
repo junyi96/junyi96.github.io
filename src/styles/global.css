@@ -31,3 +31,19 @@ section {
 padding: 2rem;
 text-align: center;
 }
+
+/* nav */
+.navigation a {
+background-color: transparent; /* Default to transparent */
+color: #fff;
+padding: 0.75rem;
+border-radius: 5px;
+text-align: center;
+list-style: none;
+text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  background-color: #d3d3d3;
+}

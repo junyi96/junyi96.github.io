@@ -1,23 +1,10 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const PageTitle = 'About Me';
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content={Astro.generator} />
-<title>About Me</title>
-</head>
-<header>
-<nav>
-<h2>My Portfolio</h2>
-<ul>
-<Navigation />
-</ul>
-</nav>
-</header>
+<BaseLayout PageTitle={PageTitle}/>
 
 <section id="about">
 <h2>About Me</h2>

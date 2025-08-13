@@ -1,26 +1,9 @@
 ---
 import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const PageTitle = 'Home';
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content={Astro.generator} />
-<title>My Portfolio</title>
-</head>
-<body>
-<header>
-<nav>
-<h2>My Portfolio</h2>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/portfolio/">Portfolio</a></li>
-<li><a href="/about/">About</a></li>
-<li><a href="/contact/">Contact</a></li>
-</ul>
-</nav>
-</header>
+<BaseLayout PageTitle={PageTitle}/>
 <section id="home">
 <h1>Welcome to My Portfolio</h1>
 <p>Showcasing my projects and skills.</p>

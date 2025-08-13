@@ -1,0 +1,21 @@
+---
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+const { PageTitle } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content={Astro.generator} />
+<title>{PageTitle}</title>
+</head>
+<header>
+<nav>
+<h2>My Portfolio</h2>
+<ul>
+<Navigation />
+</ul>
+</nav>
+</header>
