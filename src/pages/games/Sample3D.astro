@@ -1,0 +1,19 @@
+---
+import '../../styles/global.css';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const PageTitle = 'Sample 3D Game';
+//import { ClientOnly } from 'astro/components';
+---
+<BaseLayout PageTitle={PageTitle}/>
+<html>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 10vh;"></div>
+    <iframe class = "unity-3d"
+      src="/unity/index.html"
+      style="width: 960px; height: 600px; border: none;"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+  </body>
+</html>
